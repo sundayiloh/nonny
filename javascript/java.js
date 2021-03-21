@@ -7,7 +7,7 @@
  function ready(){
      var removeCartItemButtons = document.getElementsByClassName('button')
           console.log(removeCartItemButtons)
-       /* for (var i = 0; i < removeCartItemButtons.length; i++) {
+        for (var i = 0; i < removeCartItemButtons.length; i++) {
           var button = removeCartItemButtons[i]
           button.addEventListener('click',removeCartItem)
    }
@@ -95,7 +95,7 @@ function updateCartTotal(){
           total = total + price
           console.log(price)
       }
-      document.getElementsByClassName('total')[0].innerText ='#' + total*/
+      document.getElementsByClassName('total')[0].innerText ='#' + total
   }
   
   var not1 = document.querySelector('.fa');
